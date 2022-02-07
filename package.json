@@ -1,0 +1,19 @@
+{
+    "name": "Type name of your project here",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "ts-node src/app.ts",
+        "dev": "nodemon --exec ts-node src/app.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "@types/node": "^17.0.14"
+    },
+    "dependencies": {
+        "express": "^4.17.2"
+    }
+}
